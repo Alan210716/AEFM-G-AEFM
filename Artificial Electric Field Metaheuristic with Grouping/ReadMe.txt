@@ -70,8 +70,9 @@ The algorithm displays iteration progress:
 text
 Iteration = 50, Min Time = 125.30
 File Structure
-Main algorithm file: multi_robot_task_allocation.m
+Main algorithm file: AEFM_G.m
 
 Required functions: assignGrpsWithCDF.m, TextOutput_2.m
 Note: The agent path output of AEFM-G is only partial because it outputs the common path of the group.
+
 Data files: Various .mat files with problem instances

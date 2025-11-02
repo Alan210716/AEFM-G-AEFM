@@ -3,9 +3,9 @@ Place your data files in the working directory
 
 Supported format: .mat files containing:
 
-CityNum: Number of cities
+CityNum: Number of tasks
 
-Demand: Task demands for each city
+Demand: Task demands for each firepoint
 
 Distance: Distance matrix between locations
 
@@ -76,3 +76,4 @@ Required functions: assignGrpsWithCDF.m, TextOutput_2.m
 Note: The agent path output of AEFM-G is only partial because it outputs the common path of the group.
 
 Data files: Various .mat files with problem instances
+

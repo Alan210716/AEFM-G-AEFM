@@ -1,3 +1,5 @@
+%% Artificial Electric Field Metaheuristic with Grouping
+
 1. Data Files
 Place your data files in the working directory
 
@@ -17,7 +19,7 @@ Travelcon: Travel constraints
 
 v: Robot velocity
 
-AntNum: Number of agents for path planning
+AntNum: Number of agents for path planning (the size of a charge cloud)
 
 2. Configuration
 File Selection
@@ -76,4 +78,5 @@ Required functions: assignGrpsWithCDF.m, TextOutput_2.m
 Note: The agent path output of AEFM-G is only partial because it outputs the common path of the group.
 
 Data files: Various .mat files with problem instances
+
 
